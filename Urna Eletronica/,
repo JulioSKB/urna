@@ -1,0 +1,13 @@
+            .pres{
+                position: absolute;
+                width: 100px;
+                left: auto;
+            }
+            .gov{
+                position: absolute;
+                width: 100px;
+                top: 29.9%;
+                left: 43.3%;
+                right: auto;
+            }
+        </style>
