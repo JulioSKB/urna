@@ -160,11 +160,11 @@
                         break;
                     case "56":
                         alert("Voto de Presidente para Enéas!");
-                        votoP[1] = votoP[1] + 1;
+                        votoP[2] = votoP[2] + 1;
                         break;
                     default:
                         alert("Voto nulo para presidente!");
-                        votoP[2] = votoP[2] + 1;
+                        votoP[3] = votoP[3] + 1;
                 }
                 switch (governador){
                     case "25":
@@ -178,11 +178,11 @@
                         break;
                     case "40":
                         alert("Voto de governador para Lobão!");
-                        votoG[1] = votoG[1] + 1;
+                        votoG[2] = votoG[2] + 1;
                         break;
                     default:
                         alert("Voto nulo para governador!");
-                        votoG[2] = votoG[2] + 1;
+                        votoG[3] = votoG[3] + 1;
                 }
 				form.presidente.value="";
 				form.governador.value="";
@@ -204,15 +204,15 @@ Total de votos em banco: ${branco}
 Presidente:
 
 Quantidade de votos para Bolsonaro: ${votoP[0]}
-Quantidade de votos para Haddad: ${votoP[0]}
-Quantidade de votos para Enéas: ${votoP[0]}
-Quantidade de votos Nulo: ${votoP[2]}
+Quantidade de votos para Haddad: ${votoP[1]}
+Quantidade de votos para Enéas: ${votoP[2]}
+Quantidade de votos Nulo: ${votoP[3]}
 
 Governador:
 Quantidade de votos para Wilson Witzel: ${votoG[0]}
-Quantidade de votos para Eduardo Paes: ${votoG[0]}
-Quantidade de votos para Lobão: ${votoG[0]}
-Quantidade de votos nulo: ${votoP[2]}`)
+Quantidade de votos para Eduardo Paes: ${votoG[1]}
+Quantidade de votos para Lobão: ${votoG[2]}
+Quantidade de votos nulo: ${votoP[3]}`)
             }
         </script>
     </body>
